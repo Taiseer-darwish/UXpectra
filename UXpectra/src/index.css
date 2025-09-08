@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #4F46E5;
+  --color-accent: #14B8A6;
+  --color-danger: #F87171;
+  --color-surface: #F3F4F6;
+  --color-ink: #1E293B;
+}
+
+*{
+  font-family:"Space Grotesk" ;
+}
+.code{
+  font-family:"Space Grotesk" ;
+}
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply font-sans text-ink bg-white antialiased;
+}
