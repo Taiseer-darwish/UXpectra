@@ -4,13 +4,13 @@ import ParallaxSection from "./ParallaxSection";
 
 export default function Hero() {
   return (
-    <section className="bg-surface/60 bg-[#f3eeef] h-[80vh] border-b border-slate-200">
+    <section className="bg-surface/60 bg-[#f3eeef] h-[90vh] border-b border-slate-200">
       <div className="max-w-6xl mx-auto px-4 py-16">
         <motion.h1
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          className="text-4xl md:text-5xl font-semibold text-center text-ink"
+          className="text-4xl md:text-6xl font-semibold text-center text-ink"
         >
           Where <span className="text-primary">Code</span> Meets{" "}
           <span className="text-accent">Creativity</span>
